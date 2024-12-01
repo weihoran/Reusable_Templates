@@ -1,6 +1,24 @@
 # Terraform IaC Modules for Detailed Review
 
-## Kubernetes Istio Modules
+## Kuberrnetes Modules
+
+- **Terraform Module for Deploying Metrics Server to Kubernetes Cluster**  
+  Repository: [github.com/cookielab/terraform-kubernetes-metrics-server](https://github.com/cookielab/terraform-kubernetes-metrics-server)  
+  Inputs: 18, Outputs: 2  
+
+- **Terraform Module for Kubernetes Cert Manager**  
+  Repository: [github.com/terraform-iaac/terraform-kubernetes-cert-manager](https://github.com/terraform-iaac/terraform-kubernetes-cert-manager)  
+  Inputs: 13, Outputs: 5  
+
+- **Terraform Module for Kubernetes Ingress**  
+  Repository: [github.com/terraform-iaac/terraform-kubernetes-ingress](https://github.com/terraform-iaac/terraform-kubernetes-ingress)  
+  Inputs: 11, Outputs: 2  
+
+- **Terraform Module for Kubernetes Stateful Set**  
+  Repository: [github.com/terraform-iaac/terraform-kubernetes-stateful-set](https://github.com/terraform-iaac/terraform-kubernetes-stateful-set)  
+  Inputs: 44, Outputs: 2
+  
+## Istio Modules
 - **Terraform Kubernetes Istio Release**  
   Repository: [github.com/truemark/terraform-kubernetes-istio](https://github.com/truemark/terraform-kubernetes-istio)  
   Inputs: 27, Outputs: 0  
@@ -13,7 +31,7 @@
   Repository: [github.com/bakuppus/terraform-module-istio](https://github.com/bakuppus/terraform-module-istio)  
   Inputs: 6, Outputs: 0  
 
-## Linkerd2 Modules
+## Linkerd Modules
 - **Deploy Linkerd2 on Kubernetes with ease**  
   Repository: [github.com/GaruGaru/terraform-kubernetes-linkerd2](https://github.com/GaruGaru/terraform-kubernetes-linkerd2)  
   Inputs: 9, Outputs: 0  
@@ -34,7 +52,12 @@
 ## FluentD Modules
 - **FluentD collector on Kubernetes via Terraform**  
   Repository: [github.com/mateothegreat/terraform-kubernetes-fluentd-collector](https://github.com/mateothegreat/terraform-kubernetes-fluentd-collector)  
-  Inputs: 9, Outputs: 0  
+  Inputs: 9, Outputs: 0
+
+## Kibana Modules
+- **Kibana Module for Kubernetes based on Elastic Helm Charts**  
+  Repository: [github.com/kiwicom/terraform-kubernetes-kibana](https://github.com/kiwicom/terraform-kubernetes-kibana)  
+  Inputs: 16, Outputs: 1  
 
 ## Ambassador Modules
 - **Ambassador Terraform Emissary Ingress via Helm**  
@@ -89,23 +112,4 @@
   Repository: [github.com/resinstack/terraform-consul-base](https://github.com/resinstack/terraform-consul-base)  
   Inputs: 17, Outputs: 0  
 
-## Other Modules
-- **Kibana Module for Kubernetes based on Elastic Helm Charts**  
-  Repository: [github.com/kiwicom/terraform-kubernetes-kibana](https://github.com/kiwicom/terraform-kubernetes-kibana)  
-  Inputs: 16, Outputs: 1  
 
-- **Terraform Module for Deploying Metrics Server to Kubernetes Cluster**  
-  Repository: [github.com/cookielab/terraform-kubernetes-metrics-server](https://github.com/cookielab/terraform-kubernetes-metrics-server)  
-  Inputs: 18, Outputs: 2  
-
-- **Terraform Module for Kubernetes Cert Manager**  
-  Repository: [github.com/terraform-iaac/terraform-kubernetes-cert-manager](https://github.com/terraform-iaac/terraform-kubernetes-cert-manager)  
-  Inputs: 13, Outputs: 5  
-
-- **Terraform Module for Kubernetes Ingress**  
-  Repository: [github.com/terraform-iaac/terraform-kubernetes-ingress](https://github.com/terraform-iaac/terraform-kubernetes-ingress)  
-  Inputs: 11, Outputs: 2  
-
-- **Terraform Module for Kubernetes Stateful Set**  
-  Repository: [github.com/terraform-iaac/terraform-kubernetes-stateful-set](https://github.com/terraform-iaac/terraform-kubernetes-stateful-set)  
-  Inputs: 44, Outputs: 2  
