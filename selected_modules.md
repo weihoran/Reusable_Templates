@@ -1,5 +1,56 @@
 # Terraform IaC Modules for Detailed Review
 
+# Evaluation Criteria
+The criteria used to evaluate 46 reusable Infrastructure as Code (IaC) modules. Each criterion reflects a key aspect of design and functionality.
+
+## 1. Platform Independence
+- **Definition:** Determines whether the module can be used across different cloud providers or in hybrid environments.
+- **Evaluation Approach:**
+  - Check if the module supports multiple cloud providers (e.g., AWS, Azure, GCP).
+  - Verify the use of abstractions to avoid provider-specific dependencies.
+  - Confirm compatibility with hybrid or on-premises setups.
+
+## 2. Input Variables
+- **Definition:** Assesses if the module allows configuration through input variables.
+- **Evaluation Approach:**
+  - Inspect the module's code for the presence of input variables.
+  - Evaluate the flexibility and range of configurable parameters.
+  - Verify if the variables are documented for ease of use.
+
+## 3. Output Variables
+- **Definition:** Determines whether the module provides output interfaces to facilitate integration with other modules.
+- **Evaluation Approach:**
+  - Check for defined output variables in the module.
+  - Validate the relevance and completeness of the outputs for integration.
+  - Review documentation to ensure outputs are clearly described.
+
+## 4. Comprehensive Documentation
+- **Definition:** Measures the quality and depth of the module’s documentation.
+- **Evaluation Approach:**
+  - Check for README files with detailed usage instructions.
+  - Assess the presence of examples and descriptions of inputs/outputs.
+  - Verify whether naming conventions and module structure are clearly explained.
+
+## 5. Scalable Configuration
+- **Definition:** Evaluates the module's ability to handle varying loads and optimize resource utilization.
+- **Evaluation Approach:**
+  - Check for the inclusion of scaling mechanisms (e.g., auto-scaling groups).
+  - Analyze the module's adaptability to different workload scenarios.
+  - Verify resource efficiency through tagging and configuration options.
+
+## 6. Modular Structure
+- **Definition:** Determines whether the module employs a modular design with base and sub-modules for extensibility.
+- **Evaluation Approach:**
+  - Inspect the module's structure for clear separation of concerns.
+  - Verify the presence of reusable sub-modules.
+  - Assess the ease of extending or integrating the module with others.
+
+## Summary
+These criteria provide a structured framework for evaluating IaC modules. By assessing platform independence, configurability, documentation, scalability, and modularity, this approach ensures that the selected modules meet the highest standards of reusability and functionality.
+
+
+# Modules selected for evaluation
+
 ## Kuberrnetes Modules
 
 - **Terraform Module for Deploying Metrics Server to Kubernetes Cluster**  
