@@ -45,9 +45,6 @@ The criteria used to evaluate 46 reusable Infrastructure as Code (IaC) modules. 
   - Verify the presence of reusable sub-modules.
   - Assess the ease of extending or integrating the module with others.
 
-## Summary
-These criteria provide a structured framework for evaluating IaC modules. By assessing platform independence, configurability, documentation, scalability, and modularity, this approach ensures that the selected modules meet the highest standards of reusability and functionality.
-
 
 # Modules selected for evaluation
 
