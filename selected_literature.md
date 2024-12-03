@@ -13,7 +13,7 @@ We utilized a variety of information sources to ensure a comprehensive review:
 | **Category**          | **Sources**                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------------------|
 | **Academic Databases**| IEEE Xplore, ACM Digital Library, SpringerLink, ScienceDirect                        |
-| **Grey Literature**   | Whitepapers from authoritative organizations (e.g., CNCF, AWS, Azure), Industry reports from organizations like Gartner and Forrester, Tool documentation and official guides (e.g., Terraform, Helm) |
+| **Grey Literature**   | Whitepapers from authoritative organizations (e.g., CNCF, AWS, Azure), Industry reports, Tool documentation and official guides (e.g., Terraform, Helm) |
                                        |
 ### 1.2. Search Keywords
 
