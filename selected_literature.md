@@ -8,33 +8,22 @@ To comprehensively identify implementation best practices for reusable IaC templ
 
 ### 1.1. Information Sources
 
-- **Academic Databases:**
-  - IEEE Xplore
-  - ACM Digital Library
-  - SpringerLink
-  - ScienceDirect
+We utilized a variety of information sources to ensure a comprehensive review:
 
-- **Grey Literature Sources:**
-  - Whitepapers from authoritive organizations (e.g., CNCF, AWS, Azure)
-  - Industry reports from organizations like Gartner and Forrester
-  - Tool documentation and official guides (e.g., Terraform, Helm)
-
+| **Category**          | **Sources**                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------------------|
+| **Academic Databases**| IEEE Xplore, ACM Digital Library, SpringerLink, ScienceDirect                        |
+| **Grey Literature**   | Whitepapers from authoritative organizations (e.g., CNCF, AWS, Azure), Industry reports from organizations like Gartner and Forrester, Tool documentation and official guides (e.g., Terraform, Helm) |
+                                       |
 ### 1.2. Search Keywords
 
-We used a combination of keywords and phrases to capture relevant literature:
+We employed a combination of primary and secondary keywords to capture relevant literature:
 
-- **Primary Keywords:**
-  - "Infrastructure as Code"
-  - "IaC best practices"
-  - "Reusable IaC templates"
-  - "Terraform best practices"
+| **Type**             | **Keywords/Phrases**                                                                                  |
+|----------------------|--------------------------------------------------------------------------------------------------------|
+| **Primary Keywords** | "Infrastructure as Code", "IaC best practices", "Reusable IaC templates", "Terraform best practices", "Helm Chart best practices" |
+| **Secondary Keywords** | "Cloud-native infrastructure", "IaC template development", "DevOps automation", "IaC modularity", "IaC scalability", "IaC documentation" |
 
-- **Secondary Keywords:**
-  - "Cloud-native infrastructure"
-  - "IaC template development"
-  - "DevOps automation"
-  - "IaC modularity"
-  - "IaC scalability"
 
 ### 1.3. Search Process
 
@@ -55,34 +44,24 @@ We used a combination of keywords and phrases to capture relevant literature:
 
 Documents were included in the review if they met **all** the following criteria:
 
-- **Relevance:**
-  - Focused on implementation best practices for reusable IaC templates.
-  - Addressed topics related to IaC development, deployment, scalability, modularity, and documentation.
-
-- **Type of Literature:**
-  - Scientific papers, peer-reviewed articles, and authoritative books.
-  - Grey literature including whitepapers, industry reports, tool documentation, and reputable blog posts.
-
-- **Actionable Insights:**
-  - Provided clear, actionable best practices or guidelines applicable to IaC template development.
+| **Criteria**            | **Description**                                                                                                               |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Relevance**           | Focused on implementation best practices for reusable IaC templates.                                                          |
+| **Type of Literature**  | Scientific papers, peer-reviewed articles, authoritative books, grey literature including whitepapers, industry reports, tool documentation, and reputable blog posts. |
+| **Actionable Insights** | Provided clear, actionable best practices or guidelines applicable to IaC template development.                                |
 
 ## 3. Exclusion Criteria
 
 Documents were excluded from the review if they met **any** of the following criteria:
 
-- **Irrelevance:**
-  - Focused on general IaC concepts without specific best practices for reusable templates.
-  - Addressed unrelated topics such as purely theoretical aspects of IaC without practical implementation guidance.
+| **Criteria**            | **Description**                                                                                                               |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Irrelevance**         | Focused on general IaC concepts without specific best practices for reusable templates or addressed unrelated topics.           |
+| **Type of Literature**  | Opinion pieces, editorials, informal blog posts lacking authoritative backing, duplicate publications, or multiple versions of the same document. |
+| **Language**            | Published in languages other than English.                                                                                     |
+| **Publication Date**    | Published before 2014, as older literature may not reflect current best practices and tool capabilities.                       |
+| **Lack of Actionable Content** | Provided high-level overviews without detailed best practices or implementation strategies.                                           |
 
-- **Type of Literature:**
-  - Opinion pieces, editorials, or informal blog posts lacking authoritative backing.
-  - Duplicate publications or multiple versions of the same document.
-
-- **Language:**
-  - Published in languages other than English.
-
-- **Publication Date:**
-  - Published before 2014, as older literature may not reflect current best practices and tool capabilities.
 
 ## 4. Selected Literature
 
