@@ -65,5 +65,27 @@ Documents were excluded from the review if they met **any** of the following cri
 
 ## 4. Selected Literature
 
-A comprehensive list of the selected literature, including scientific papers, books, and grey literature, is available [here](https://github.com/your-repository/link-to-selected-literature.md).
+I. Kumara et al., "The do’s and don’ts of infrastructure code: A systematic gray literature review," Inf. Softw. Technol., vol. 137, p. 106593, 2021.
+
+HashiCorp, "Module creation - recommended pattern | Terraform | HashiCorp Developer," [Online]. Available: https://developer.hashicorp.com/terraform/tutorials/modules/pattern-module-creation.
+
+HashiCorp, "Customize modules with object attributes | Terraform | HashiCorp Developer," [Online]. Available: https://developer.hashicorp.com/terraform/tutorials/modules/module-object-attributes.
+
+R. Botwright, IaC Mastery: Infrastructure As Code: Your All-In-One Guide To Terraform, AWS, Azure, And Kubernetes. United States: Rob Botwright, 2023.
+
+Y. Brikman, Terraform: Up & Running: Writing Infrastructure as Code. Sebastopol, CA, USA: O'Reilly Media, 2019.
+
+A. Rahman, R. Mahdavi-Hezaveh, and L. Williams, "A systematic mapping study of infrastructure as code research," Inf. Softw. Technol., vol. 108, pp. 65–77, 2019.
+
+HashiCorp, "Best practices to automate infrastructure | HashiCorp Developer," [Online]. Available: https://developer.hashicorp.com/well-architected-framework/operational-excellence/operational-excellence-automate-infrastructure.
+
+Truemark, "truemark | Terraform Registry," [Online]. Available: https://registry.terraform.io/modules/truemark/istio/kubernetes/latest.
+
+Combinator, "combinator | Terraform Registry," [Online]. Available: https://registry.terraform.io/modules/combinator-ml/istio/k8s/latest.
+
+Bakuppus, "bakuppus | Terraform Registry," [Online]. Available: https://registry.terraform.io/modules/bakuppus/istio/module/latest.
+
+
+
+
 
